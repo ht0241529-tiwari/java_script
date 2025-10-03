@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello  gaus how are you</h1>
+  <button id="stop">stop</button>
+</body>
+<script>
+    // setTimeout(function(){
+    //     console.log("harsh")
+    // },2000)
+    // const sayHarsh=function(){
+    //     console.log("harsh");
+    // }
+    // setTimeout(sayHarsh,2000)
+   const changeText=function(){
+const hello=document.querySelector('h1').innerHTML="best class is it"
+console.log(hello)
+   }
+   const changeme=setTimeout(changeText,2000)
+   document.querySelector('#stop').
+   addEventListener('click',function(){
+    clearTimeout(changeme)
+    console.log("stopped")
+   })
+
+</script>
+</html>
